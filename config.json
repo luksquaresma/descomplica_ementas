@@ -1,0 +1,229 @@
+{
+    "cookies": {
+        "JSESSIONID": "7080443D82BF9CF80C5DCB28DDB32347",
+        "user-data": "eyJuYW1lIjoiTHVjYXMgZGUgQWxtZWlkYSBRdWFyZXNtYSIsImlkIjoiNzg4MTEiLCJsb2dpbiI6IjI0MjUwNTkiLCJzZW5oYUFsdGVyYWRhIjoidHJ1ZSIsInJvbGVzIjoiUk9MRV9VU0VSIiwicm9vdCI6ZmFsc2UsInRoZW1lIjoiIn0="
+    },
+    "hist_file": "./historico.pdf",
+    "url_base": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/$$$/obter-ementa",
+    "url_base_placehoder": "$$$",
+    "terminal_log_macro": true,
+    "terminal_log_micro": false,
+    "steps_to_perform": {
+        "overwride_sources": true,
+        "extraction": true
+    },
+    "stop_if_error": true,
+    "max_proc": 8,
+    "max_get_trys": 5,
+    "local": {
+        "path_log": "./logs/global.log",
+        "path_result": "./results/"
+    },
+    "raw_source": [
+        {
+            "code": "0037",
+            "name": "Arquitetura de Computadores do Século XXI",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0037/obter-ementa"
+        },
+        {
+            "code": "0064",
+            "name": "Criação de Aplicações e Sistemas",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0064/obter-ementa"
+        },
+        {
+            "code": "0067",
+            "name": "Análise e Levantamento de Requisitos de Software",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0067/obter-ementa"
+        },
+        {
+            "code": "0244",
+            "name": "Ciência Tecnologia e Sociedade",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0244/obter-ementa"
+        },
+        {
+            "code": "0543",
+            "name": "Desenvolvimento FrontEnd",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0543/obter-ementa"
+        },
+        {
+            "code": "0545",
+            "name": "Desenvolvimento Dinâmico",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0545/obter-ementa"
+        },
+        {
+            "code": "0550",
+            "name": "Programação I",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0550/obter-ementa"
+        },
+        {
+            "code": "0594",
+            "name": "Circuitos Digitais",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0594/obter-ementa"
+        },
+        {
+            "code": "0596",
+            "name": "Geometria Analílica Sistemas Lineares",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0596/obter-ementa"
+        },
+        {
+            "code": "0598",
+            "name": "Álgebra Linear",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0598/obter-ementa"
+        },
+        {
+            "code": "0104",
+            "name": "Estruturas de Dados para Sistemas Inteligentes",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0104/obter-ementa"
+        },
+        {
+            "code": "0107",
+            "name": "Desenvolvimento Mobile",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0107/obter-ementa"
+        },
+        {
+            "code": "0597",
+            "name": "Sistemas Operacionais",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0597/obter-ementa"
+        },
+        {
+            "code": "0601",
+            "name": "Cálculo Diferencial",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0601/obter-ementa"
+        },
+        {
+            "code": "0602",
+            "name": "Organização de Computadores",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0602/obter-ementa"
+        },
+        {
+            "code": "0603",
+            "name": "Matemática Discreta",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0603/obter-ementa"
+        },
+        {
+            "code": "0109",
+            "name": "Solução de Problemas com Integrais",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0109/obter-ementa"
+        },
+        {
+            "code": "0138",
+            "name": "Plataformas para Desenvolvimento na Nuvem",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0138/obter-ementa"
+        },
+        {
+            "code": "0577",
+            "name": "Engenharia de Software",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0577/obter-ementa"
+        },
+        {
+            "code": "0578",
+            "name": "Redes de Computadores",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0578/obter-ementa"
+        },
+        {
+            "code": "0605",
+            "name": "Lógica Matemática",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0605/obter-ementa"
+        },
+        {
+            "code": "0094",
+            "name": "Design de Software",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0094/obter-ementa"
+        },
+        {
+            "code": "0122",
+            "name": "Arquitetura de BI e Big Data",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0122/obter-ementa"
+        },
+        {
+            "code": "0606",
+            "name": "Estatística Inferencial e Probabilidade",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0606/obter-ementa"
+        },
+        {
+            "code": "0607",
+            "name": "Paradigmas das Linguagens de Programação",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0607/obter-ementa"
+        },
+        {
+            "code": "0608",
+            "name": "Teoria da Computação",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0608/obter-ementa"
+        },
+        {
+            "code": "0142",
+            "name": "Internet das Coisas",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0142/obter-ementa"
+        },
+        {
+            "code": "0328",
+            "name": "Análise de Algoritmos",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0328/obter-ementa"
+        },
+        {
+            "code": "0512",
+            "name": "Redes Neurais e Deep Learning",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0512/obter-ementa"
+        },
+        {
+            "code": "0522",
+            "name": "Machine Learning Applications",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0522/obter-ementa"
+        },
+        {
+            "code": "0551",
+            "name": "Desenvolvimento de Aplicações de Banco de Dados",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0551/obter-ementa"
+        },
+        {
+            "code": "0137",
+            "name": "Tecnologias Inovadoras de Desenvolvimento de Sistemas",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0137/obter-ementa"
+        },
+        {
+            "code": "0614",
+            "name": "Projeto e Implementação de Banco de Dados",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0614/obter-ementa"
+        },
+        {
+            "code": "0616",
+            "name": "Padrões de Projeto",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0616/obter-ementa"
+        },
+        {
+            "code": "0618",
+            "name": "Teoria dos Grafos",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0618/obter-ementa"
+        },
+        {
+            "code": "0619",
+            "name": "Pesquisa e Ordenação",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0619/obter-ementa"
+        },
+        {
+            "code": "0118",
+            "name": "Segurança Tecnológica",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0118/obter-ementa"
+        },
+        {
+            "code": "0580",
+            "name": "Testes de Software",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0580/obter-ementa"
+        },
+        {
+            "code": "0586",
+            "name": "Compiladores",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0586/obter-ementa"
+        },
+        {
+            "code": "0611",
+            "name": "Computação Gráfica e Processamento de Imagem",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0611/obter-ementa"
+        },
+        {
+            "code": "0621",
+            "name": "Computação Distribuída e Paralela",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0621/obter-ementa"
+        }
+    ]
+}
