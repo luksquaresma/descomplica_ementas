@@ -1,7 +1,7 @@
 {
     "cookies": {
-        "JSESSIONID": "7080443D82BF9CF80C5DCB28DDB32347",
-        "user-data": "eyJuYW1lIjoiTHVjYXMgZGUgQWxtZWlkYSBRdWFyZXNtYSIsImlkIjoiNzg4MTEiLCJsb2dpbiI6IjI0MjUwNTkiLCJzZW5oYUFsdGVyYWRhIjoidHJ1ZSIsInJvbGVzIjoiUk9MRV9VU0VSIiwicm9vdCI6ZmFsc2UsInRoZW1lIjoiIn0="
+        "JSESSIONID": "8814DF83B8C9CB7D2680321A5A91E8B3",
+        "user-data": "eyJuYW1lIjoiTHVjYXMgZGUgQWxtZWlkYSBRdWFyZXNtYSIsImlkIjoiNzg4MTEiLCJsb2dpbiI6IjI0MjUwNTkiLCJzZW5oYUFsdGVyYWRhIjoidHJ1ZSIsInJvbGVzIjoiUk9MRV9VU0VSIiwicm9vdCI6ZmFsc2UsInRoZW1lIjoiIn0"
     },
     "hist_file": "./historico.pdf",
     "url_base": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/$$$/obter-ementa",
@@ -14,7 +14,7 @@
     },
     "stop_if_error": true,
     "max_proc": 8,
-    "max_get_trys": 5,
+    "max_get_trys": 50,
     "local": {
         "path_log": "./logs/global.log",
         "path_result": "./results/"

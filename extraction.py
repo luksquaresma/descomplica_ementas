@@ -76,6 +76,9 @@ def extract_json_from_url(args):
             log(f"{prefix} Error on performing request:\n{e}", path_log, log_terminal=log_terminal_macro)
             if config["stop_if_error"]: raise
         atempts += 1
+        if atempts == trys:
+            log(f"{prefix} Error on performing request: \nMaximun number of tries exeeded.", path_log, log_terminal=log_terminal_micro)
+            
 
 # interface - multiprocessing extraction
 def extract(config, log_terminal_macro=config["terminal_log_macro"], log_terminal_micro=config["terminal_log_micro"]):
