@@ -1,7 +1,9 @@
 ./historico.pdf
 results
+results_backup
+session_data
 logs
-
+.pdm-python
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

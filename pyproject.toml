@@ -1,0 +1,21 @@
+[project]
+name = "descomplica_ementas"
+version = "0.1.0"
+description = "Document extractor."
+authors = [
+    {name = "Lucas Quaresma", email = "lucas.quaresma1@gmail.com"},
+]
+dependencies = [
+    "pandas>=2.2.3",
+    "tqdm>=4.67.1",
+    "br-army-knife>=0.0.7",
+    "tabula-py>=2.10.0",
+    "selenium>=4.29.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

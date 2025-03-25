@@ -1,9 +1,10 @@
 {
-    "cookies": {
-        "JSESSIONID": "8814DF83B8C9CB7D2680321A5A91E8B3",
-        "user-data": "eyJuYW1lIjoiTHVjYXMgZGUgQWxtZWlkYSBRdWFyZXNtYSIsImlkIjoiNzg4MTEiLCJsb2dpbiI6IjI0MjUwNTkiLCJzZW5oYUFsdGVyYWRhIjoidHJ1ZSIsInJvbGVzIjoiUk9MRV9VU0VSIiwicm9vdCI6ZmFsc2UsInRoZW1lIjoiIn0"
+    "cookie_list": {
+        "JSESSIONID": "/AOnline3",
+        "user-data": "/AOnline3"
     },
     "hist_file": "./historico.pdf",
+    "url_auth": "https://descomplica.lyceum.com.br/AOnline3/#/login",
     "url_base": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/$$$/obter-ementa",
     "url_base_placehoder": "$$$",
     "terminal_log_macro": true,
@@ -17,7 +18,8 @@
     "max_get_trys": 50,
     "local": {
         "path_log": "./logs/global.log",
-        "path_result": "./results/"
+        "path_result": "./results/",
+        "path_session_data": "./session_data/"
     },
     "raw_source": [
         {
@@ -62,7 +64,7 @@
         },
         {
             "code": "0596",
-            "name": "Geometria Analílica Sistemas Lineares",
+            "name": "Geometria Analítica e Sistemas Lineares",
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0596/obter-ementa"
         },
         {
@@ -87,7 +89,7 @@
         },
         {
             "code": "0601",
-            "name": "Cálculo Diferencial",
+            "name": "Matemática Diferencial Aplicada",
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0601/obter-ementa"
         },
         {
@@ -106,11 +108,6 @@
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0109/obter-ementa"
         },
         {
-            "code": "0138",
-            "name": "Plataformas para Desenvolvimento na Nuvem",
-            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0138/obter-ementa"
-        },
-        {
             "code": "0577",
             "name": "Engenharia de Software",
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0577/obter-ementa"
@@ -124,6 +121,11 @@
             "code": "0605",
             "name": "Lógica Matemática",
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0605/obter-ementa"
+        },
+        {
+            "code": "1026",
+            "name": "Prática Integradora Computação em Nuvem",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/1026/obter-ementa"
         },
         {
             "code": "0094",
@@ -176,6 +178,31 @@
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0551/obter-ementa"
         },
         {
+            "code": "3.40",
+            "name": "83-ES",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/3.40/obter-ementa"
+        },
+        {
+            "code": "15/0",
+            "name": "024 por Diploma",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/15/0/obter-ementa"
+        },
+        {
+            "code": "2024",
+            "name": "",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/2024/obter-ementa"
+        },
+        {
+            "code": "16/0",
+            "name": "021",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/16/0/obter-ementa"
+        },
+        {
+            "code": "0520",
+            "name": "",
+            "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0520/obter-ementa"
+        },
+        {
             "code": "0137",
             "name": "Tecnologias Inovadoras de Desenvolvimento de Sistemas",
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0137/obter-ementa"
@@ -222,7 +249,7 @@
         },
         {
             "code": "0621",
-            "name": "Computação Distribuída e Paralela",
+            "name": "Computação Distribuída",
             "url": "https://descomplica.lyceum.com.br/AOnline3/apix/matricula/codDisciplina/0621/obter-ementa"
         }
     ]

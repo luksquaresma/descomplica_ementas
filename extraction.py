@@ -1,17 +1,20 @@
+from auth import auth
 from utils import *
+from time import sleep
 from tqdm import tqdm
-import br_army_knife as bak
 
-import copy, multiprocessing, requests, tabula, warnings
+import copy, multiprocessing, os, requests, tabula, warnings
 import pandas as pd
 
 warnings.filterwarnings("ignore")
 
 # basic configuration from external file
 with open("./config.json") as file:
-    config = dict(json.load(file))    
-bak.files.create_complete_path(config["local"]["path_log"])
-bak.files.create_complete_path(config["local"]["path_result"])
+    config = dict(json.load(file))
+
+os.makedirs(config["local"]["path_log"].removesuffix(".log"), exist_ok=True) 
+os.makedirs(config["local"]["path_result"], exist_ok=True) 
+os.makedirs(config["local"]["path_session_data"], exist_ok=True) 
 
 def reset_config(config):
     globals()["config"] = copy.deepcopy(config)
@@ -54,7 +57,7 @@ def extract_json_from_url(args):
 
     result_content = None
     atempts = 0
-    prefix = f'JOB {job["code"]}, NAME {job["name"]} -'
+    suffix = f'- JOB {job["code"]}, NAME {job["name"]}'
 
     while atempts < trys and result_content == None:
         try:
@@ -64,20 +67,21 @@ def extract_json_from_url(args):
                     try:                                
                         with open(f'{path_result}{job["code"]}_{job["name"]}.pdf', 'wb') as f:
                             f.write(response.content)
-                        log(f"{prefix} Finished job.", path_log, log_terminal=log_terminal_micro)    
+                        log(f"Finished job. {suffix}", path_log, log_terminal=log_terminal_micro)    
                         break
                     except Exception as e:
-                        log(f"{prefix} Error saving JSON file:\n{e}", path_log, log_terminal=log_terminal_macro)
+                        log(f"Error saving JSON file: {suffix}\n{e}", path_log, log_terminal=log_terminal_macro)
                         if config["stop_if_error"]: raise
                 except Exception as e:
-                    log(f"{prefix} Error parsing JSON results:\n{e}", path_log, log_terminal=log_terminal_macro)
+                    log(f"Error parsing JSON results: {suffix}\n{e}", path_log, log_terminal=log_terminal_macro)
                     if config["stop_if_error"]: raise
         except Exception as e:
-            log(f"{prefix} Error on performing request:\n{e}", path_log, log_terminal=log_terminal_macro)
+            log(f"Error performing request: {suffix}\n{e}", path_log, log_terminal=log_terminal_macro)
+            sleep(1)
             if config["stop_if_error"]: raise
         atempts += 1
         if atempts == trys:
-            log(f"{prefix} Error on performing request: \nMaximun number of tries exeeded.", path_log, log_terminal=log_terminal_micro)
+            log(f"Error performing request: {suffix}\nMaximun number of tries exeeded.", path_log, log_terminal=log_terminal_micro)
             
 
 # interface - multiprocessing extraction
@@ -86,8 +90,9 @@ def extract(config, log_terminal_macro=config["terminal_log_macro"], log_termina
     max_proc = multiprocessing.cpu_count()
     max_proc = config["max_proc"] if config["max_proc"] < max_proc else max_proc
     max_trys = config["max_get_trys"]
-    cookies = config["cookies"]
-    
+    # cookies = config["cookies"]
+    cookies = auth(config["url_auth"], config["cookie_list"])
+
     path_log = config["local"]["path_log"]
     path_result = config["local"]["path_result"]
     prep_dir([get_dir_from_file_path(path_log), path_result])
